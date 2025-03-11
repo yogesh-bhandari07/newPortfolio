@@ -18,7 +18,7 @@ function Homepage() {
         <meta charSet="utf-8" />
         <meta
           name="description"
-          content="I'm Pranav, a 16-year-old web developer & freelancer with 3M+ website views & $4K+ in funding. Explore my portfolio for my work and experience."
+          content="Experienced Full Stack Developer with 4 years of expertise in developing applications using Python, PHP, Laravel, Django, Django rest framework, React JS , tailwind, HTML, CSS, JavaScript, jQuery, MySQL. Proven track record of designing, developing, and deploying applications from scratch. Applying for the position of Backend Developer at Lavessta enterprises Pvt Ltd to leverage my technical expertise to create innovative projects."
         />
       </Helmet>
 

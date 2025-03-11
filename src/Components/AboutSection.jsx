@@ -12,7 +12,7 @@ import { BiSolidCoffeeAlt } from "react-icons/bi";
 import { IoChatboxEllipses } from "react-icons/io5";
 import { MdOutlineBusinessCenter } from "react-icons/md";
 import mePicturenew from "../Images/pranavlatest.jpg";
-import pranavprofile from '../Images/pranavprofile.jpg'
+import yogeshBhandariProfile from "../Images/yogeshBhandariProfile.png";
 
 export default function AboutMe() {
   return (
@@ -31,8 +31,8 @@ export default function AboutMe() {
                   </span>
                 </div>
 
-                <div class="mt-3">
-                  <h2 class="text-4xl mb-1 font-semibold tracking-wide text-white">
+                <div className="mt-3">
+                  <h2 className="text-4xl mb-1 font-semibold tracking-wide text-white">
                     A Bit{" "}
                     <span className="text-[#67230d] underline">About Me.</span>
                   </h2>
@@ -40,94 +40,85 @@ export default function AboutMe() {
                     <span className="text-[#36190f] font-semibold">
                       Hi there!
                     </span>{" "}
-                    I'm Pranav. I'm a current senior in highschool based out of
-                    Richmond, Virginia. I started building simple websites in my
-                    sophomore year of highschool. Ever since then, I absolutely
-                    fell in love with web-development and have built + shipped
-                    many different apps that have a focus on helping others{" "}
-                    {":)"}
+                    I'm <strong>Yogesh Kumar</strong>, a Full Stack Developer
+                    with <strong>3+ years</strong> of experience in building
+                    scalable web applications. My expertise includes{" "}
+                    <strong>
+                      Python, PHP, Laravel, Django, Django REST Framework,
+                      React.js, Tailwind CSS, and MySQL
+                    </strong>
+                    . I thrive on creating solutions that make a meaningful
+                    impact 🚀.
                     <br />
                     <br />
-                    Here's a quick rundown of what I've done. I built{" "}
-                    <a
-                      href="https://talem.org"
-                      target="_blank"
-                      className="underline text-[#67230d]"
-                    >
-                      talem.org
-                    </a>
-                    , a website that helps highschoolers find extracurriculars
-                    and internships. I created{" "}
-                    <a
-                      href="https://learntheweb.org"
-                      target="_blank"
-                      className="underline text-[#67230d]"
-                    >
-                      learntheweb.org
-                    </a>
-                    , a website that teaches web-dev through self-paced courses
-                    + projects.
+                    I've worked on multiple projects, including:
+                    <ul className="list-disc pl-6">
+                      <li>
+                        <a
+                          href="https://www.yogesh-bhandari.com"
+                          target="_blank"
+                          className="underline text-[#67230d]"
+                        >
+                          My Portfolio
+                        </a>{" "}
+                        - Showcasing my work and experience.
+                      </li>
+                      <li>
+                        <a
+                          href="https://github.com/yogesh-bhandari07"
+                          target="_blank"
+                          className="underline text-[#67230d]"
+                        >
+                          My GitHub
+                        </a>{" "}
+                        - Open-source contributions and projects.
+                      </li>
+                    </ul>
                     <br />
-                    <br />
-                    Nowadays, I'm working on my latest app which helps web
-                    developers:{" "}
+                    I'm currently working on **AI-based applications** and
+                    **backend optimizations** while also exploring **ethical
+                    hacking**. If you'd like to collaborate or have a chat, feel
+                    free to{" "}
                     <a
-                      href="https://desource.app"
+                      href="mailto:yogesh.bhandari285@gmail.com"
                       target="_blank"
                       className="underline text-[#67230d]"
                     >
-                      desource.app
-                    </a>{" "}
-                    and I'm running{" "}
-                    <a
-                      href="https://thryvedesign.com"
-                      target="_blank"
-                      className="underline text-[#67230d]"
-                    >
-                      my own web development agency
-                    </a>{" "}
-                    where we've worked with 20+ clients and generated ~10k in
-                    revenue in just a year! If you want to reach me,{" "}
-                    <a
-                      href="mailto:pranavkonjeti@gmail.com"
-                      target="_blank"
-                      className="underline text-[#67230d]"
-                    >
-                      just shoot me an email
+                      email me
                     </a>
                     !
                   </p>
 
-                  <div className="flex mt-6 space-x-4 items-center  gap-x-2">
+                  <div className="flex mt-6 space-x-4 items-center gap-x-2">
                     <a
-                      href="https://www.linkedin.com/in/pranav-konjeti/"
+                      href="https://www.linkedin.com/in/the-yogesh-bhandari"
                       target="_blank"
                       className="contact-buttons-about"
                     >
                       <FaLinkedin className="text-2xl" />
                     </a>
                     <a
-                      href="mailto:pranavkonjeti@gmail.com"
+                      href="mailto:yogesh.bhandari285@gmail.com"
                       className="contact-buttons-about"
                     >
                       <FaMailBulk className="text-2xl" />
                     </a>
                     <a
-                      href="https://github.com/PkTheCoda"
+                      href="https://github.com/yogesh-bhandari07"
                       target="_blank"
                       className="contact-buttons-about"
                     >
                       <FaGithub className="text-2xl" />
                     </a>
                     <a
-                      href="https://thryvedesign.com"
+                      href="https://www.yogesh-bhandari.com"
                       target="_blank"
                       className="contact-buttons-about"
                     >
                       <MdOutlineBusinessCenter className="text-2xl" />
                     </a>
                     <a
-                      href="https://buymeacoffee.com/pranavkonjeti"
+                      href="https://buymeacoffee.com/yogeshbhandari"
                       target="_blank"
                       className="contact-buttons-about"
                     >
@@ -141,47 +132,43 @@ export default function AboutMe() {
               <img
                 loading="lazy"
                 class="rounded-xl w-5/6 lg:my-0 shadow-2xl ring-1 ring-black ring-opacity-5 rotate-2"
-                src={pranavprofile}
+                src={yogeshBhandariProfile}
               />
             </div>
           </div>
 
           <div className="mt-10 mb-28 max-w-4xl mx-auto flex flex-col items-center gap-y-6 text-[#482d14]">
-            
             <h1 className="six-title tracking-tight font-medium text-center">
-                My Websites Make A <span className="underline">Real Impact</span>
+              My Projects Make A <span className="underline">Real Impact</span>
             </h1>
 
             <div className="grid grid-cols-1 sm:grid-cols-3 w-full gap-4">
+              <div className="w-full bg-[#34200e] py-6 flex flex-col gap-y-2 items-center text-white rounded-xl shadow-md">
+                <h1 className="seven-title font-semibold">
+                  2<span className="main-gradient">M+</span>
+                </h1>
+                <p className="one-title font-medium">Users (Millions)</p>
+              </div>
 
-                <div className="w-full bg-[#34200e] py-6 flex flex-col gap-y-2 items-center text-white rounded-xl shadow-md">
-                    <h1 className="seven-title font-semibold">
-                        2<span className="main-gradient">M+</span>
-                    </h1>
-                    <p className="one-title font-medium">Views (Millions)</p>
-                </div>
+              <div className="w-full bg-[#34200e] py-6 flex flex-col gap-y-2 items-center text-white rounded-xl shadow-md">
+                <h1 className="seven-title font-semibold">
+                  98<span className="main-gradient">%</span>
+                </h1>
+                <p className="one-title font-medium">
+                  Transctions Success Rate
+                </p>
+              </div>
 
-                <div className="w-full bg-[#34200e] py-6 flex flex-col gap-y-2 items-center text-white rounded-xl shadow-md">
-                    <h1 className="seven-title font-semibold">
-                        300<span className="main-gradient">k+</span>
-                    </h1>
-                    <p className="one-title font-medium">Visitors (Lifetime)</p>
-                </div>
-
-                <div className="w-full bg-[#34200e] py-6 flex flex-col gap-y-2 items-center text-white rounded-xl shadow-md">
-                    <h1 className="seven-title font-semibold">
-                        <span className="main-gradient">$</span>4000
-                    </h1>
-                    <p className="one-title font-medium">In Total Funding</p>
-                </div>
-
+              <div className="w-full bg-[#34200e] py-6 flex flex-col gap-y-2 items-center text-white rounded-xl shadow-md">
+                <h1 className="seven-title font-semibold">
+                  <span className="main-gradient">Rs.</span>5{" "}
+                  <span className="main-gradient">C+</span>
+                </h1>
+                <p className="one-title font-medium">
+                  Total Transcation Amount{" "}
+                </p>
+              </div>
             </div>
-
-            <p className="text-center">
-                *This data is a combination of the lifetime analytics across {' '}
-                <div className="block"><b className="underline">all my websites</b> tracked through <a href="https://marketingplatform.google.com/about/analytics/" target="_blank" className="underline font-bold">Google Analytics</a></div>
-            </p>
-
           </div>
         </div>
       </div>
