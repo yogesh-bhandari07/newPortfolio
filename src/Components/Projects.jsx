@@ -1,12 +1,11 @@
 import React from "react";
 
-import talem1 from "../Images/talem1.png";
-import talem2 from "../Images/talem2.png";
-import talem3 from "../Images/talem3.png";
+import talem1 from "../Images/projects/gp (1).png";
+import talem2 from "../Images/projects/gp (2).png";
+import talem3 from "../Images/projects/gp (3).png";
 
-import ltw1 from "../Images/ltw1.png";
-import ltw2 from "../Images/ltw2.png";
-import ltw3 from "../Images/ltw3.png";
+import ltw1 from "../Images/projects/i4invest (2).png";
+import ltw2 from "../Images/projects/i4invest (1).png";
 
 import ecoeats1 from "../Images/ecoeats1.png";
 import ecoeats2 from "../Images/ecoeats2.png";
@@ -19,10 +18,32 @@ import score1 from "../Images/score1.png";
 import score2 from "../Images/score2.png";
 import score3 from "../Images/score3.png";
 
-import desource1 from "../Images/desource1.png";
-import desource2 from "../Images/desource2.png";
-import desource3 from "../Images/desource3.png";
+import desource1 from "../Images/projects/icegate (1).png";
+import desource2 from "../Images/projects/icegate (2).png";
 
+import php from "../Images/php.png";
+import laravel from "../Images/laravel.png";
+import python from "../Images/python.png";
+import django from "../Images/django.png";
+import mysql from "../Images/mysql.png";
+import html from "../Images/html.png";
+import javascript from "../Images/javascript.png";
+import css from "../Images/css.png";
+import reactjs from "../Images/reactjs.png";
+import tailwind from "../Images/tailwind.png";
+import nodejs from "../Images/nodejs.png";
+import threejs from "../Images/threejs.svg";
+import redux from "../Images/redux.png";
+import mongodb from "../Images/mongodb.png";
+import docker from "../Images/docker.png";
+import git from "../Images/git.png";
+import figma from "../Images/figma.png";
+import flask from "../Images/flask.png";
+import typescript from "../Images/typescript.png";
+import angular from "../Images/angularjs.png";
+import kafka from "../Images/kafka.png";
+import aws from "../Images/aws.png";
+import grafana from "../Images/grafana.svg";
 import {
   FaEye,
   FaUser,
@@ -174,36 +195,22 @@ function TooltipCustomStyles(props) {
   );
 }
 
-const talemBuiltWith = [
+const globalPayments = [
   {
     name: "HTML",
-    link:
-      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+    link: html,
   },
   {
     name: "CSS",
-    link:
-      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+    link: css,
   },
   {
     name: "JavaScript",
-    link:
-      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+    link: javascript,
   },
   {
-    name: "ReactJS",
-    link:
-      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
-  },
-  {
-    name: "Firebase",
-    link:
-      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg",
-  },
-  {
-    name: "React Router",
-    link:
-      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg", // Replace with actual image link
+    name: "Angular",
+    link: angular,
   },
   {
     name: "TailwindCSS",
@@ -211,57 +218,55 @@ const talemBuiltWith = [
       "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
   },
   {
-    name: "Radix UI",
-    link:
-      "https://static-00.iconduck.com/assets.00/brand-radix-ui-icon-1536x2048-78tvytqz.png", // Replace with actual image link
+    name: "MYSQL",
+    link: mysql,
+  },
+  {
+    name: "Laravel",
+    link: laravel,
+  },
+  {
+    name: "Kafka",
+    link: kafka,
   },
 ];
 
-const stellaBuiltWith = [
+const icegate = [
   {
     name: "HTML",
-    link:
-      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+    link: html,
   },
   {
     name: "CSS",
-    link:
-      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+    link: css,
   },
   {
     name: "JavaScript",
-    link:
-      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+    link: javascript,
   },
   {
     name: "ReactJS",
-    link:
-      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
-  },
-  {
-    name: "PrismaDB",
-    link:
-      "https://d2eip9sf3oo6c2.cloudfront.net/tags/images/000/001/287/square_480/prismaHD.png",
+    link: reactjs,
   },
   {
     name: "TailwindCSS",
-    link:
-      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
+    link: tailwind,
   },
   {
-    name: "Daisy UI",
-    link:
-      "https://raw.githubusercontent.com/saadeghi/daisyui/master/src/docs/static/images/daisyui-logo/favicon-192.png",
+    name: "MYSQL",
+    link: mysql,
   },
   {
-    name: "NextJS",
-    link:
-      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg",
+    name: "MYSQL",
+    link: mysql,
   },
   {
-    name: "PostgreSQL",
-    link:
-      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg",
+    name: "Laravel",
+    link: laravel,
+  },
+  {
+    name: "PHP",
+    link: php,
   },
 ];
 
@@ -336,31 +341,35 @@ const desourceBuiltWith = [
   },
 ];
 
-const learnthewebBuiltWith = [
-  {
-    name: "Wordpress",
-    link:
-      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-plain.svg",
-  },
+const i4invest = [
   {
     name: "HTML",
-    link:
-      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+    link: html,
   },
+
   {
     name: "CSS",
-    link:
-      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+    link: css,
   },
   {
     name: "JavaScript",
-    link:
-      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+    link: javascript,
   },
   {
-    name: "PHP",
-    link:
-      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg",
+    name: "Python",
+    link: python,
+  },
+  {
+    name: "Django",
+    link: django,
+  },
+  {
+    name: "MYSQL",
+    link: mysql,
+  },
+  {
+    name: "ReactJS",
+    link: reactjs,
   },
 ];
 
@@ -456,14 +465,14 @@ export function Projects() {
               <span className="text-blue-500 drop-shadow-2xl text-base">
                 01
               </span>
-              Talem - Extracurriculars
+              PayU - Global Payments
             </h2>
             <h4 className="text-gray-700 text-xl md:text-2xl flex">
               <TooltipCustomStyles
                 title="About Talem"
                 description="Talem was an app created by Pranav to help highschoolers find the right extracurriculars and internships fast."
               />
-              Highschool Opportunities Finder
+              A Payment Gateway
             </h4>
           </div>
 
@@ -477,15 +486,15 @@ export function Projects() {
             <div className="rounded-b-lg bg-[#e17948ee] px-4 md:px-4 md:px-8 items-center justify-center flex flex-col">
               <div className="grid grid-cols-1 lg:grid-cols-2 w-full py-6 gap-8">
                 <div className="w-full bg-white rounded-md p-6 text-sm md:text-lg lg:text-xl py-4">
-                  Talem is an advanced platform enabling high school students to
-                  discover tailored extracurriculars and internships. With a
-                  vast database and over 15 filtering options, users can easily
-                  navigate opportunities. The website boasts a seamless
-                  integration of backend and frontend, designed using
-                  TailwindCSS.
+                  Maintained and enhanced a payment processing system to
+                  facilitate secure and reliable financial transactions between
+                  customers and merchants. The project involved integrating
+                  multiple payment gateways, optimizing transaction processing,
+                  and ensuring compliance with financial security standards. My
+                  role in this project is Full-stack developer.
                 </div>
                 <div className="bg-white p-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-2 xl:grid-cols-3 gap-3 rounded-md">
-                  {talemBuiltWith.map((technology, index) => (
+                  {globalPayments.map((technology, index) => (
                     <a
                       key={index}
                       href={technology.link}
@@ -501,86 +510,6 @@ export function Projects() {
                       {technology.name}
                     </a>
                   ))}
-                </div>
-              </div>
-
-              <div className="w-full mb-8 gap-8 grid grid-cols-1 lg:grid-cols-2">
-                <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
-                  <div className="bg-white rounded-md py-2 flex lg:flex-row flex-col gap-2 text-center items-center justify-center">
-                    <div className="p-2 bg-orange-100 rounded-full">
-                      <FaEye className="text-orange-800" />
-                    </div>
-                    <h2 className="text-lg">1 Million+ Visits</h2>
-                  </div>
-
-                  <div className="bg-white rounded-md py-2 flex lg:flex-row flex-col gap-2 text-center items-center justify-center">
-                    <div className="p-2 bg-orange-100 rounded-full">
-                      <FaUser className="text-orange-800" />
-                    </div>
-                    <h2 className="text-lg">300-600 DAU</h2>
-                  </div>
-
-                  <div className="bg-white rounded-md py-2 flex lg:flex-row flex-col gap-2 text-center items-center justify-center">
-                    <div className="p-2 bg-orange-100 rounded-full">
-                      <FaMoneyBill className="text-orange-800" />
-                    </div>
-                    <h2 className="text-lg">$3k Raised</h2>
-                  </div>
-                </div>
-
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                  <a
-                    href="https://talem.org"
-                    target="_blank"
-                    class="relative inline-flex items-center justify-center p-4 px-6 py-3 overflow-hidden font-medium text-indigo-600 transition duration-300 ease-out bg-blue-200 rounded-md shadow-md group"
-                  >
-                    <span class="absolute inset-0 flex items-center justify-center w-full h-full text-white duration-300 -translate-x-full bg-blue-500 group-hover:translate-x-0 ease">
-                      <svg
-                        class="w-6 h-6"
-                        fill="none"
-                        stroke="currentColor"
-                        viewBox="0 0 24 24"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-width="2"
-                          d="M14 5l7 7m0 0l-7 7m7-7H3"
-                        ></path>
-                      </svg>
-                    </span>
-                    <span class="absolute flex items-center justify-center w-full h-full text-black transition-all duration-300 transform group-hover:translate-x-full ease gap-2">
-                      <FaExternalLinkAlt /> Visit Website
-                    </span>
-                    <span class="relative invisible">Button Text</span>
-                  </a>
-                  <a
-                    href="https://github.com/PkTheCoda/talem-app"
-                    target="_blank"
-                    class="relative inline-flex items-center justify-center p-4 px-6 py-3 overflow-hidden font-medium text-indigo-600 transition duration-300 ease-out bg-orange-200 rounded-md shadow-md group"
-                  >
-                    <span class="absolute inset-0 flex items-center justify-center w-full h-full text-white duration-300 -translate-x-full bg-orange-500 group-hover:translate-x-0 ease">
-                      <svg
-                        class="w-6 h-6"
-                        fill="none"
-                        stroke="currentColor"
-                        viewBox="0 0 24 24"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-width="2"
-                          d="M14 5l7 7m0 0l-7 7m7-7H3"
-                        ></path>
-                      </svg>
-                    </span>
-                    <span class="absolute flex items-center justify-center w-full h-full text-[#6b4d01ee] transition-all duration-300 transform group-hover:translate-x-full ease gap-2">
-                      <FaCode /> View Repo
-                    </span>
-                    <span class="relative invisible">Button Text</span>
-                  </a>
                 </div>
               </div>
             </div>
@@ -596,37 +525,35 @@ export function Projects() {
               <span className="text-blue-500 drop-shadow-2xl text-base">
                 02{" "}
               </span>{" "}
-              Desource -{" "}
-              <span className="opacity-70">Resources for Web-Developers</span>
+              PayU - <span className="opacity-70">IceGate</span>
             </h2>
             <h4 className="text-gray-700 two-title font-outfit flex">
               <TooltipCustomStyles
                 title="About Desource"
                 description="Desource is one my newest web-development projects that serves as a collection of resources for web-development and web-designers alike!"
               />
-              A Massive Database of Web-development Resources
+              ICEGATE is an Indian Customs Electronic Gateway
             </h4>
           </div>
 
           <div className="flex flex-col w-11/12 lg:w-5/6 justify-around shadow-[rgba(0,_0,_0,_0.25)_0px_25px_50px_-12px] rounded-md">
-            <CarouselCustomNavigation
-              image1={desource2}
-              image2={desource1}
-              image3={desource3}
-            />
+            <CarouselCustomNavigation image1={desource2} image2={desource1} />
 
             <div className="rounded-b-lg font-outfit bg-[#e17948ee] px-4 md:px-8 items-center justify-center flex flex-col">
               <div className="grid grid-cols-1 lg:grid-cols-2 w-full py-6 gap-8">
                 <div className="w-full bg-white rounded-md p-6 text-sm md:text-lg lg:text-xl py-4">
-                  Desource is one of my newest projects. It's a massive
-                  collection of resources for web-designers and web-developers.
-                  Users can access the site and bookmark resources useful for
-                  them, submit their own resources, and even leave ratings of
-                  reviews along with over 20+ different filters from gradients
-                  to colors to graphics and more!
+                  Working on the integration of ICEGATE (Indian Customs
+                  Electronic Gateway) with enterprise systems, ensuring seamless
+                  electronic data interchange (EDI) for customs processes.
+                  Responsible for developing and maintaining scalable web
+                  applications using Node.js, Next.js, MongoDB, and Tailwind
+                  CSS, while optimizing API interactions for secure and
+                  efficient data exchange. Implementing authentication (JWT) and
+                  enhancing system performance to streamline import-export
+                  operations.
                 </div>
                 <div className="bg-white p-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-2 xl:grid-cols-3 gap-3 rounded-md">
-                  {desourceBuiltWith.map((technology, index) => (
+                  {icegate.map((technology, index) => (
                     <a
                       key={index}
                       href={technology.link}
@@ -642,85 +569,6 @@ export function Projects() {
                       {technology.name}
                     </a>
                   ))}
-                </div>
-              </div>
-
-              <div className="w-full mb-8 gap-8 grid grid-cols-1 lg:grid-cols-2">
-                <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
-                  <div className="bg-white rounded-md py-2 flex lg:flex-row flex-col gap-2 text-center items-center justify-center">
-                    <div className="p-2 bg-orange-100 rounded-full">
-                      <FaEye className="text-orange-800" />
-                    </div>
-                    <h2 className="text-lg">10k visits</h2>
-                  </div>
-
-                  <div className="bg-white rounded-md py-2 flex lg:flex-row flex-col gap-2 text-center items-center justify-center">
-                    <div className="p-2 bg-orange-100 rounded-full">
-                      <FaUser className="text-orange-800" />
-                    </div>
-                    <h2 className="text-lg">No Stats</h2>
-                  </div>
-
-                  <div className="bg-white rounded-md py-2 flex lg:flex-row flex-col gap-2 text-center items-center justify-center">
-                    <div className="p-2 bg-orange-100 rounded-full">
-                      <FaMoneyBill className="text-orange-800" />
-                    </div>
-                    <h2 className="text-lg">No Stats</h2>
-                  </div>
-                </div>
-
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                  <a
-                    href="https://desource.app"
-                    target="_blank"
-                    class="relative inline-flex items-center justify-center p-4 px-6 py-3 overflow-hidden font-medium text-indigo-600 transition duration-300 ease-out bg-blue-200 rounded-md shadow-md group"
-                  >
-                    <span class="absolute inset-0 flex items-center justify-center w-full h-full text-white duration-300 -translate-x-full bg-blue-500 group-hover:translate-x-0 ease">
-                      <svg
-                        class="w-6 h-6"
-                        fill="none"
-                        stroke="currentColor"
-                        viewBox="0 0 24 24"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-width="2"
-                          d="M14 5l7 7m0 0l-7 7m7-7H3"
-                        ></path>
-                      </svg>
-                    </span>
-                    <span class="absolute flex items-center justify-center w-full h-full text-black transition-all duration-300 transform group-hover:translate-x-full ease gap-2">
-                      <FaExternalLinkAlt /> Visit Website
-                    </span>
-                    <span class="relative invisible">Button Text</span>
-                  </a>
-                  <a
-                    href="https://github.com/pkthecoda/desource"
-                    class="relative inline-flex items-center justify-center p-4 px-6 py-3 overflow-hidden font-medium text-indigo-600 transition duration-300 ease-out bg-orange-200 rounded-md shadow-md group"
-                  >
-                    <span class="absolute inset-0 flex items-center justify-center w-full h-full text-white duration-300 -translate-x-full bg-orange-500 group-hover:translate-x-0 ease">
-                      <svg
-                        class="w-6 h-6"
-                        fill="none"
-                        stroke="currentColor"
-                        viewBox="0 0 24 24"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-width="2"
-                          d="M14 5l7 7m0 0l-7 7m7-7H3"
-                        ></path>
-                      </svg>
-                    </span>
-                    <span class="absolute flex items-center justify-center w-full h-full text-[#6b4d01ee] transition-all duration-300 transform group-hover:translate-x-full ease gap-2">
-                      <FaCode /> Visit Repo
-                    </span>
-                    <span class="relative invisible">Visit Repo</span>
-                  </a>
                 </div>
               </div>
             </div>
@@ -736,36 +584,36 @@ export function Projects() {
               <span className="text-blue-500 drop-shadow-2xl text-base">
                 03{" "}
               </span>
-              Learntheweb
+              I4Invest
             </h2>
             <h4 className="text-gray-700 two-title font-outfit flex">
               <TooltipCustomStyles
                 title="About Learntheweb"
                 description="Learntheweb was created by Pranav when he realized how lacking basic computer science education was throughout the standardized school system."
               />
-              Online Programming Initative
+              A Portfolio Management tool for investers
             </h4>
           </div>
 
           <div className="flex flex-col w-11/12 lg:w-5/6 justify-around shadow-[rgba(0,_0,_0,_0.25)_0px_25px_50px_-12px] rounded-md">
-            <CarouselCustomNavigation
-              image1={ltw1}
-              image2={ltw2}
-              image3={ltw3}
-            />
+            <CarouselCustomNavigation image1={ltw1} image2={ltw2} />
 
             <div className="rounded-b-lg font-outfit bg-[#e17948ee] px-4 md:px-8 items-center justify-center flex flex-col">
               <div className="grid grid-cols-1 lg:grid-cols-2 w-full py-6 gap-8">
                 <div className="w-full bg-white rounded-md p-6 text-sm md:text-lg lg:text-xl py-4">
-                  learntheweb.org is a free online learning platform designed to
-                  make coding easy and accessible to people of all ages and
-                  backgrounds. To date, we've conducted over 6 workshops, taught
-                  over 200+ students, over 300 hours of active teaching, and
-                  more. Additionally, you can self-learn with our 80+ in-built
-                  lessons
+                  This is an ai based application where we are extracting data
+                  from different trading platforms and their different formats
+                  like pdf, HTML, XML, and Excel, after extraction we are
+                  applying options for the analysis of data. In this application
+                  we are using Python Django rest framework for the backend and
+                  react JS for frontend. In this project I worked as a backend
+                  developer and lead developer role, as a lead developer I
+                  maintain my team during the project and give the best output.
+                  The main part of the application is to extract data from
+                  different formats and save it in a common database model.
                 </div>
                 <div className="bg-white p-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-2 xl:grid-cols-3 gap-3 rounded-md">
-                  {learnthewebBuiltWith.map((technology, index) => (
+                  {i4invest.map((technology, index) => (
                     <a
                       key={index}
                       href={technology.link}
@@ -781,86 +629,6 @@ export function Projects() {
                       {technology.name}
                     </a>
                   ))}
-                </div>
-              </div>
-
-              <div className="w-full mb-8 gap-8 grid grid-cols-1 lg:grid-cols-2">
-                <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
-                  <div className="bg-white rounded-md py-2 flex lg:flex-row flex-col gap-2 text-center items-center justify-center">
-                    <div className="p-2 bg-orange-100 rounded-full">
-                      <FaEye className="text-orange-800" />
-                    </div>
-                    <h2 className="text-lg">300k visits</h2>
-                  </div>
-
-                  <div className="bg-white rounded-md py-2 flex lg:flex-row flex-col gap-2 text-center items-center justify-center">
-                    <div className="p-2 bg-orange-100 rounded-full">
-                      <GrWorkshop className="text-orange-800" />
-                    </div>
-                    <h2 className="text-lg">6 Workshops</h2>
-                  </div>
-
-                  <div className="bg-white rounded-md py-2 flex lg:flex-row flex-col gap-2 text-center items-center justify-center">
-                    <div className="p-2 bg-orange-100 rounded-full">
-                      <PiStudentDuotone className="text-orange-800" />
-                    </div>
-                    <h2 className="text-lg">150+ Taught</h2>
-                  </div>
-                </div>
-
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                  <a
-                    href="https://learntheweb.org"
-                    target="_blank"
-                    class="relative inline-flex items-center justify-center p-4 px-6 py-3 overflow-hidden font-medium text-indigo-600 transition duration-300 ease-out bg-blue-200 rounded-md shadow-md group"
-                  >
-                    <span class="absolute inset-0 flex items-center justify-center w-full h-full text-white duration-300 -translate-x-full bg-blue-500 group-hover:translate-x-0 ease">
-                      <svg
-                        class="w-6 h-6"
-                        fill="none"
-                        stroke="currentColor"
-                        viewBox="0 0 24 24"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-width="2"
-                          d="M14 5l7 7m0 0l-7 7m7-7H3"
-                        ></path>
-                      </svg>
-                    </span>
-                    <span class="absolute flex items-center justify-center w-full h-full text-black transition-all duration-300 transform group-hover:translate-x-full ease gap-2">
-                      <FaExternalLinkAlt /> Visit Website
-                    </span>
-                    <span class="relative invisible">Button Text</span>
-                  </a>
-                  <a
-                    href="https://learntheweb.org"
-                    target="_blank"
-                    class="relative inline-flex items-center justify-center p-4 px-6 py-3 overflow-hidden font-medium text-indigo-600 transition duration-300 ease-out bg-orange-200 rounded-md shadow-md group"
-                  >
-                    <span class="absolute inset-0 flex items-center justify-center w-full h-full text-white duration-300 -translate-x-full bg-orange-500 group-hover:translate-x-0 ease">
-                      <svg
-                        class="w-6 h-6"
-                        fill="none"
-                        stroke="currentColor"
-                        viewBox="0 0 24 24"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-width="2"
-                          d="M14 5l7 7m0 0l-7 7m7-7H3"
-                        ></path>
-                      </svg>
-                    </span>
-                    <span class="absolute flex items-center justify-center w-full h-full text-[#6b4d01ee] transition-all duration-300 transform group-hover:translate-x-full ease gap-2">
-                      <FaCode /> Visit Repo
-                    </span>
-                    <span class="relative invisible">Button Text</span>
-                  </a>
                 </div>
               </div>
             </div>

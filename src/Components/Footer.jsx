@@ -8,7 +8,7 @@ import {
 } from "react-icons/fa";
 import ContactForm from "./ContactForm";
 import { BiSolidCoffeeAlt } from "react-icons/bi";
-import pranavbigtext from "../Images/pranavbigtext.svg";
+import yogeshText from "../Images/Yogeshtext.svg";
 
 function Footer() {
   return (
@@ -40,7 +40,7 @@ function Footer() {
 
         {/* <footer className="bg-[#efa237] mt-16 py-8 text-center">
           <p className="text-[#553418] text-lg font-outfit px-2">
-            Built with ❤️ by <a href="mailto:pranavkonjeti@gmail.com" target="_blank" className="text-[#3c2611] underline">Yogesh Bhandari</a> using <span className="text-[#3c2611]">React, TailwindCSS, Material Tailwind</span> <br />
+            Built with ❤️ by <a href="mailto:yogesh.bhandari285@gmail.com" target="_blank" className="text-[#3c2611] underline">Yogesh Bhandari</a> using <span className="text-[#3c2611]">React, TailwindCSS, Material Tailwind</span> <br />
             This portfolio is a complete rehaul of my <a href="https://pranavkold.vercel.app" target="_blank" className="text-[#3c2611] underline">old one</a>. Have Suggestions? Email me!
             
 
@@ -65,7 +65,7 @@ function Footer() {
             </a>
             <a
               className="p-3 bg-white rounded-full transition transform hover:scale-105"
-              href="mailto:pranavkonjeti@gmail.com"
+              href="mailto:yogesh.bhandari285@gmail.com"
             >
               <FaEnvelope className="text-[#4a2f16] text-2xl" />
             </a>
@@ -93,17 +93,6 @@ function Footer() {
                 <h3 className="font-bold text-xl text-[#553418]">
                   Yogesh Bhandari
                 </h3>
-
-                <a
-                  href="https://buymeacoffee.com/pranavkonjeti"
-                  target="_blank"
-                >
-                  <img
-                    className="max-w-[150px] shadow-md"
-                    src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png"
-                    alt="Buy Me a Coffee"
-                  />
-                </a>
               </div>
 
               <div className="p-5 font-light">
@@ -112,21 +101,15 @@ function Footer() {
                 </div>
                 <a
                   className="my-3 block hover:underline"
-                  href="https://www.linkedin.com/in/pranav-konjeti/"
+                  href="https://www.linkedin.com/in/the-yogesh-bhandari/"
                   target="_blank"
                 >
                   Linkedin <span className="text-teal-600 text-xs p-1"></span>
                 </a>
+
                 <a
                   className="my-3 block hover:underline"
-                  href="https://www.youtube.com/@pranavkonjeti"
-                  target="_blank"
-                >
-                  Youtube <span className="text-teal-600 text-xs p-1"></span>
-                </a>
-                <a
-                  className="my-3 block hover:underline"
-                  href="https://github.com/PkTheCoda"
+                  href="https://github.com/yogesh-bhandari07"
                   target="_blank"
                 >
                   Github
@@ -135,56 +118,19 @@ function Footer() {
 
               <div className="p-5 font-light">
                 <div className="text-sm uppercase text-[#553418] font-bold">
-                  Projects
-                </div>
-                <a
-                  className="my-3 block hover:underline"
-                  href="https://talem.org"
-                  target="_blank"
-                >
-                  talem.org<span className="text-teal-600 text-xs p-1"></span>
-                </a>
-                <a
-                  className="my-3 block hover:underline"
-                  href="https://desource.app"
-                  target="_blank"
-                >
-                  desource.app
-                  <span className="text-teal-600 text-xs p-1"></span>
-                </a>
-                <a
-                  className="my-3 block hover:underline"
-                  href="https://learntheweb.org"
-                  target="_blank"
-                >
-                  learntheweb.org
-                  <span className="text-teal-600 text-xs p-1"></span>
-                </a>
-              </div>
-
-              <div className="p-5 font-light">
-                <div className="text-sm uppercase text-[#553418] font-bold">
                   Contact Me
                 </div>
-                <a className="my-3 block" href="mailto:pranavkonjeti@gmail.com">
-                  pranavkonjeti@gmail.com
+                <a
+                  className="my-3 block"
+                  href="mailto:yogesh.bhandari285@gmail.com"
+                >
+                  yogesh.bhandari285@gmail.com
                   <span className="text-teal-600 text-xs p-1"></span>
                 </a>
-                <p className="my-3 block">
-                  For hiring inquires, please contact me through my{" "}
-                  <a
-                    href="https://thryvedesign.com"
-                    target="_blank"
-                    className="font-medium underline"
-                  >
-                    business website
-                  </a>
-                  <span className="text-teal-600 text-xs p-1"></span>
-                </p>
               </div>
             </div>
             <div className="max-w-screen-lg py-10 border-t-2 border-[#b1743e] mx-auto">
-              <img src={pranavbigtext} alt="" className="w-full" />
+              <img src={yogeshText} alt="" className="w-full" />
             </div>
           </div>
         </footer>

@@ -1,40 +1,39 @@
-import { useState } from 'react'
-import { Dialog } from '@headlessui/react'
-import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
-import logo from '../Images/pklogo.png'
-import pranavtextlogo from '../Images/pranavlogotext.png'
+import { useState } from "react";
+import { Dialog } from "@headlessui/react";
+import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
+import logo from "../Images/pklogo.png";
+import pranavtextlogo from "../Images/pranavlogotext.png";
 
 const navigation = [
-  { name: 'Home', href: '/' },
-  { name: 'Email', href: 'mailto:pranavkonjeti@gmail.com' },
-  { name: 'Linkedin', href: 'https://www.linkedin.com/in/pranav-konjeti/' },
-]
+  { name: "Home", href: "/" },
+  { name: "Email", href: "mailto:yogesh.bhandari285@gmail.com" },
+  { name: "Linkedin", href: "https://www.linkedin.com/in/pranav-konjeti/" },
+];
 
 export default function NavbarStatic() {
-  const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   const handleNavigationClick = (event, href) => {
     event.preventDefault();
     const target = document.querySelector(href);
     if (target) {
-      target.scrollIntoView({ behavior: 'smooth' });
+      target.scrollIntoView({ behavior: "smooth" });
     }
-    setMobileMenuOpen(false); 
+    setMobileMenuOpen(false);
   };
 
   return (
     <>
       <div className="z-40 backdrop-blur-xl py-2 flex items-center mx-auto bg-[#f6efd8]">
         <header className="w-full z-40 mx-auto max-w-[90rem]">
-          <nav className="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
+          <nav
+            className="flex items-center justify-between p-6 lg:px-8"
+            aria-label="Global"
+          >
             <div className="flex lg:flex-1">
               <a href="/" className="-m-1.5 p-1.5">
                 <span className="sr-only">Your Company</span>
-                <img
-                    className="h-8 w-auto"
-                    src={pranavtextlogo}
-                    alt=""
-                  />
+                <img className="h-8 w-auto" src={pranavtextlogo} alt="" />
               </a>
             </div>
             <div className="flex lg:hidden">
@@ -49,10 +48,10 @@ export default function NavbarStatic() {
             </div>
             <div className="hidden lg:flex lg:gap-x-12">
               {navigation.map((item) => (
-                <a 
-                  key={item.name} 
-                  href={item.href} 
-                  target='_blank'
+                <a
+                  key={item.name}
+                  href={item.href}
+                  target="_blank"
                   className="text-md leading-6 text-black font-outfit transition transform hover:scale-110"
                 >
                   {item.name}
@@ -60,26 +59,27 @@ export default function NavbarStatic() {
               ))}
             </div>
             <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-              <a 
-                href="https://thryvedesign.com" 
-                target='_blank'
+              <a
+                href="https://thryvedesign.com"
+                target="_blank"
                 className="text-md leading-6 text-black font-outfit"
               >
                 Hire Me <span aria-hidden="true">&rarr;</span>
               </a>
             </div>
           </nav>
-          <Dialog as="div" className="lg:hidden font-outfit" open={mobileMenuOpen} onClose={setMobileMenuOpen}>
+          <Dialog
+            as="div"
+            className="lg:hidden font-outfit"
+            open={mobileMenuOpen}
+            onClose={setMobileMenuOpen}
+          >
             <div className="fixed inset-0 z-40" />
             <Dialog.Panel className="fixed inset-y-0 right-0 z-40 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
               <div className="flex items-center justify-between">
                 <a href="/" className="-m-1.5 p-1.5">
                   <span className="sr-only">Your Company</span>
-                  <img
-                    className="h-8 w-auto"
-                    src={pranavtextlogo}
-                    alt=""
-                  />
+                  <img className="h-8 w-auto" src={pranavtextlogo} alt="" />
                 </a>
                 <button
                   type="button"
@@ -98,7 +98,9 @@ export default function NavbarStatic() {
                         key={item.name}
                         href={item.href}
                         className="-mx-3 block rounded-lg px-3 py-2 text-base  leading-7 text-gray-900 hover:bg-gray-50"
-                        onClick={(event) => handleNavigationClick(event, item.href)}
+                        onClick={(event) =>
+                          handleNavigationClick(event, item.href)
+                        }
                       >
                         {item.name}
                       </a>
@@ -107,10 +109,10 @@ export default function NavbarStatic() {
                   <div className="py-6">
                     <a
                       href="https://thryvedesign.com"
-                      target='_blank'
+                      target="_blank"
                       className="-mx-3 block rounded-lg px-3 py-2.5 text-base  leading-7 text-gray-900 hover:bg-gray-50"
                     >
-                      Hire Me 
+                      Hire Me
                     </a>
                   </div>
                 </div>
@@ -120,5 +122,5 @@ export default function NavbarStatic() {
         </header>
       </div>
     </>
-  )
+  );
 }

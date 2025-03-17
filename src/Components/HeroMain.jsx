@@ -24,15 +24,15 @@ export default function HeroMain() {
               <span className="main-gradient">Yogesh Bhandari</span>
             </h1>
             <p className="mt-6 text-xl sm:text-3xl leading-8 text-black font-outfit">
-              I'm a highschooler who builds
+              I'm a Fullstack Developer who builds
               <span className="main-gradient font-semibold ml-2">
                 <TypeAnimation
                   sequence={[
                     "impactful software.", // Types 'One'
                     2000, // Waits 1.5s
-                    "visually-appealing websites.", // Deletes 'One' and types 'Two'
+                    "Specialist in Fintech ", // Deletes 'One' and types 'Two'
                     2000, // Waits 1.5s
-                    "tools to democratize education", // Deletes 'One' and types 'Two'
+                    "Full Stack Developer", // Deletes 'One' and types 'Two'
                     2000, // Waits 1.5s
                     () => {
                       console.log("Sequence completed");
