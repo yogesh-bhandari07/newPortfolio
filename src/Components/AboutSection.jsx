@@ -118,7 +118,7 @@ export default function AboutMe() {
                       <MdOutlineBusinessCenter className="text-2xl" />
                     </a>
                     <a
-                      href="https://buymeacoffee.com/yogeshbhandari"
+                      href="https://buymeacoffee.com/yogesh.bhandari"
                       target="_blank"
                       className="contact-buttons-about"
                     >
