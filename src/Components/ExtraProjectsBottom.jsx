@@ -119,7 +119,7 @@ export default function ExtraProjectBottom() {
           </a>
           <a
             target="_blank"
-            href="https://budgeticu.in"
+            href="https://budgeticu.in/"
             className="gap-8 p-8 rounded-xl shadow-md cursor-pointer bg-[#ffedd5]"
           >
             <div className="p-4 space-y-4 flex flex-col text-black justify-center">
@@ -132,13 +132,13 @@ export default function ExtraProjectBottom() {
               </div>
               <div className="space-y-2">
                 <a
-                  href="https://budgeticu.in"
+                  href="https://budgeticu.in/"
                   className="text-blue-500 underline"
                   target="_blank"
                 >
                   budgeticu.in
                 </a>
-                <h1 className="five-title">Budget Icue</h1>
+                <h1 className="five-title">Budget Icu</h1>
                 <h3 className="text-sm sm:text-lg text-balance leading-6 font-light text-gray-800">
                   BudgetICU operates as more than just a traditional medical
                   facility; it functions as an integral part of a healthcare

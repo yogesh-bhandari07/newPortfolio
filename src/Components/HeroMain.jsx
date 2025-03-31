@@ -28,12 +28,11 @@ export default function HeroMain() {
               <span className="main-gradient font-semibold ml-2">
                 <TypeAnimation
                   sequence={[
-                    "impactful software.", // Types 'One'
-                    2000, // Waits 1.5s
-                    "Specialist in Fintech ", // Deletes 'One' and types 'Two'
-                    2000, // Waits 1.5s
-                    "Full Stack Developer", // Deletes 'One' and types 'Two'
-                    2000, // Waits 1.5s
+                    "scalable applications.",
+                    2000,
+                    "secure fintech solutions.",
+                    2000,
+                    "enterprise-level software.",
                     () => {
                       console.log("Sequence completed");
                     },
