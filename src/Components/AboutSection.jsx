@@ -41,7 +41,7 @@ export default function AboutMe() {
                       Hi there!
                     </span>{" "}
                     I'm <strong>Yogesh Kumar</strong>, a Full Stack Developer
-                    with <strong>3+ years</strong> of experience in building
+                    with <strong>4.5+ years</strong> of experience in building
                     scalable web applications. My expertise includes{" "}
                     <strong>
                       Python, PHP, Laravel, Django, Django REST Framework,
