@@ -13,7 +13,6 @@ import { IoChatboxEllipses } from "react-icons/io5";
 import { MdOutlineBusinessCenter } from "react-icons/md";
 import mePicturenew from "../Images/pranavlatest.jpg";
 import yogeshBhandariProfile from "../Images/yogeshBhandariProfile.jpeg";
-// redeploy
 export default function AboutMe() {
   return (
     <>
