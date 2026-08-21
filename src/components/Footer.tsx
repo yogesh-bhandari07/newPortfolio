@@ -1,5 +1,5 @@
-import React from 'react';
-import { PERSONAL_INFO } from '../data/portfolioData';
+import React from "react";
+import { PERSONAL_INFO } from "../data/portfolioData";
 
 export const Footer: React.FC = () => {
   const currentYear = new Date().getFullYear();
@@ -33,14 +33,7 @@ export const Footer: React.FC = () => {
           >
             GitHub
           </a>
-          <a
-            href={PERSONAL_INFO.socials.twitter}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-[#554337] hover:text-[#944a00] transition-all duration-200 hover:scale-105 font-medium"
-          >
-            Twitter
-          </a>
+
           <a
             href={PERSONAL_INFO.socials.email}
             className="text-[#554337] hover:text-[#944a00] transition-all duration-200 hover:scale-105 font-medium"
